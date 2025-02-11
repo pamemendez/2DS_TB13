@@ -1,15 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
 .container_login {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 400px;
-  height: 450px;
+  height: 750px;
   border-radius: 15px;
   background-color: #f4f4f4;
   /* Cinza claro */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
+
+  padding-top: 350px;
 }
 
 /* Campos de entrada */
@@ -63,4 +73,9 @@
   color: #333;
   /* Preto suave */
   margin-bottom: 20px;
+}
+
+.logo-senai {
+  width: 300px;
+  height: fit-content;
 }

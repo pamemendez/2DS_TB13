@@ -1,0 +1,83 @@
+/* Estilização do overlay do modal */
+.modal-overlay {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal_container {
+    width: 620px;
+    flex-direction: column;
+    background: rgb(236, 236, 236);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: relative;
+}
+
+.modal-container input{
+    display: flex;
+
+}
+
+.close_button {
+    position: relative;
+    bottom: 15px;
+    background: none;
+    left: 300px;
+    border: none;   
+}
+
+.att-save {
+    position: relative;
+    left: 470px;
+    background-color: #ccc;
+
+    border: none;
+}
+
+.att-save:hover {
+    border: none;
+}
+
+.close_button:hover {
+    border: none;
+    color: red;
+}
+
+.ni_modal, .nome_modal, .email_modal, .cel_modal, .ocup_modal{
+    width: 250px;
+    height: 30px;
+    
+    
+}
+.body_modal{
+    display: flex;
+    flex-direction: row;
+}
+
+.caixa1{
+
+    width: 10vw;
+    
+}
+.caixa2{
+    display: flex;
+    width: 40vw;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}

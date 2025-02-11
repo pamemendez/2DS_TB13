@@ -70,3 +70,10 @@
         font-size: 0.9rem;
     }
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; 
+}

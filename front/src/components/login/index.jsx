@@ -27,16 +27,22 @@ export default function Login(){
   }
  
   return(
+    <div className="main">
+
     <div className="container_login">
       
+      <div>
+      <img className="logo-senai" src="https://desenvolveitapevi.wordpress.com/wp-content/uploads/2016/02/logo-senai1.png" alt=""/>
       <h1>Login</h1>
+
+      </div>
 
       <input
         className="caixa"
         value={user}
         onChange={(e)=>{setUser(e.target.value)}}
         placeholder="User"
-      />
+        />
 
       <input
         className="caixa"
@@ -44,12 +50,13 @@ export default function Login(){
         onChange={(e)=>{setPassword(e.target.value)}}
         placeholder="Password"
         type="password"
-      />
+        />
 
       <button className="btn" onClick={logar}>
         Enter
       </button>
 
+      </div>
     </div>
   )
 }

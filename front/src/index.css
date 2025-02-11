@@ -13,6 +13,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-grow: 1;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -69,6 +80,6 @@ button:focus-visible {
   }
 
   button {
-    background-color: #f9f9f9;
+    background-color: #DDDDDd;
   }
 }
